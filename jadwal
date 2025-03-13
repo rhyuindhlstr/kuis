@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: black;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background: #d4c3a3;
+            color: black;
+        }
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        tr:hover {
+            background: #f1c40f;
+            color: black;
+            transition: 0.3s;
+        }
+        .red { color: red; font-weight: bold; }
+        .green { color: green; font-weight: bold; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #ff5e62;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: white;
+            color: #ff5e62;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jadwal Kuliah</h1>
+        <table>
+            <tr>
+                <th>TIME</th>
+                <th>SENIN</th>
+                <th>SELASA</th>
+                <th>RABU</th>
+                <th>KAMIS</th>
+                <th>JUMAT</th>
+            </tr>
+            <tr>
+                <td>07:30 - 09:10</td>
+                <td class="red">MAPEN_G2</td>
+                <td>TI_G2</td>
+                <td></td>
+                <td></td>
+                <td class="red">PDT_G2</td>
+            </tr>
+            <tr>
+                <td>09:15 - 10:55</td>
+                <td>TAM_G2</td>
+                <td>ADSI_G2</td>
+                <td class="green">IOT(R)_L1</td>
+                <td>ML_GC</td>
+                <td class="green">ML(R)_MB</td>
+            </tr>
+            <tr>
+                <td>11:00 - 12:40</td>
+                <td></td>
+                <td>AI_G2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>13:55 - 15:35</td>
+                <td class="red">IOT_GB</td>
+                <td class="green">AI_MA</td>
+                <td class="red">PEMDEK(R)_RPL</td>
+                <td class="green">ADSI(R)_MB</td>
+                <td class="green">TAM(R)_L1</td>
+            </tr>
+            <tr>
+                <td>15:50 - 17:30</td>
+                <td class="green">PDT(R)_L1</td>
+                <td class="red">PEMDEK_GB</td>
+                <td></td>
+                <td class="green">WEB(R)_L1</td>
+                <td>WEB_GC</td>
+            </tr>
+        </table>
+        <a href="latihan.html" class="btn">Kembali</a>
+    </div>
+</body>
+</html>
